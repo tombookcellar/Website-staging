@@ -400,6 +400,52 @@ footer .social-icon {
     flex-shrink: 0;
 }
 
+/* Pairings CTA */
+
+.pairings-cta {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255, 240, 217, 0.3);
+    border-bottom: 1px solid rgba(255, 240, 217, 0.3);
+}
+
+.pairings-cta p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.pairings-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.pairings-cta-buttons a {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #FFF0D9;
+    color: #004953;
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.pairings-cta-buttons a:hover {
+    opacity: 0.85;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    .pairings-cta-buttons {
+        flex-direction: column;
+    }
+    .pairings-cta-buttons a {
+        text-align: center;
+    }
+}
+
 /* Careers */
 
 .job-section {
