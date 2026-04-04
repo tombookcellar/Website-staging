@@ -244,7 +244,9 @@ footer {
 
 .footer-right {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6rem;
 }
 
 footer a {
